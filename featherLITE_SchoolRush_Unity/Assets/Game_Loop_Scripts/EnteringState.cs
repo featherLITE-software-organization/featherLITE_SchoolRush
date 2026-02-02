@@ -1,16 +1,17 @@
 using UnityEngine;
 
-public class EnteringState : MonoBehaviour
+public class EnteringState : BaseGameState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void EnterState(GameLoopStateMachine game)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    }
+    public override void UpdateState(GameLoopStateMachine game)
     {
-        
+
+    }
+    public override void ExitState(GameLoopStateMachine game)
+    {
+
     }
 }
