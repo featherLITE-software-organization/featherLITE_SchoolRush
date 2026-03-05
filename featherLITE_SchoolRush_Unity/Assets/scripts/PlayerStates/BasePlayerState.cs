@@ -65,6 +65,6 @@ public class BasePlayerState
 
         Debug.Log(targetVector);
 
-        player.rb.AddForce(1 * Time.deltaTime * (targetVector - player.rb.linearVelocity), ForceMode.Impulse);
+        player.rb.AddForce(10 * (targetVector - player.rb.linearVelocity));
     }
 }
