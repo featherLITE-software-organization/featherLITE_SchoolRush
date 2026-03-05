@@ -10,7 +10,7 @@ public class JumpingState : BasePlayerState
     public override void EnterState()
     {
         base.EnterState();
-        player.inputVector = new Vector3(0, 8, 0);
+        player.inputVector = new Vector3(0, 150, 0);
         player.rb.AddForce(player.inputVector);
     }
 

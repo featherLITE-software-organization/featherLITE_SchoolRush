@@ -9,7 +9,7 @@ public class WalkingState : BasePlayerState
     public override void EnterState()
     {
         base.EnterState();
-        player.rb.AddForce(player.inputVector);
+       
     }
 
     public override void ExitState()
